@@ -23,7 +23,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'WCompass.settings')
 django.setup()
 from main.models import Company, VacancyType, RequirementTech, Vacancy, Locations
 
-bot = Bot('7031018913:AAHfL4zWtIkMp2kjoJEaS6hLWQoP0scIC6A')
+bot = Bot('')
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
